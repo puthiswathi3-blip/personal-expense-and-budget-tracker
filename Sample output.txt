@@ -1,0 +1,162 @@
+Sample Output:
+
+================================================
+       PERSONAL EXPENSE & BUDGET TRACKER
+================================================
+1. Add Expense
+2. View All Expenses
+3. Edit Expense
+4. Delete Expense
+5. Set Monthly Budget
+6. Daily Spending Summary
+7. Monthly Spending Summary
+8. Category-wise Summary
+9. Search and Filter Expenses
+0. Exit
+================================================
+Enter your choice: 1
+
+========== ADD EXPENSE ==========
+Enter date (YYYY-MM-DD) or press Enter for today: 2015
+Invalid date. Example: 2026-11-12
+Enter date (YYYY-MM-DD) or press Enter for today: 2025-10-22
+
+Expense Categories:
+1. Food
+2. Transport
+3. Shopping
+4. Education
+5. Entertainment
+6. Bills
+7. Health
+8. Other
+Select category number: 1
+Enter description: apples
+Enter amount (Rs.): 500
+
+Expense added successfully!
+Transaction ID: 3e7aed97
+
+
+================================================
+       PERSONAL EXPENSE & BUDGET TRACKER
+================================================
+1. Add Expense
+2. View All Expenses
+3. Edit Expense
+4. Delete Expense
+5. Set Monthly Budget
+6. Daily Spending Summary
+7. Monthly Spending Summary
+8. Category-wise Summary
+9. Search and Filter Expenses
+0. Exit
+================================================
+Enter your choice: 5
+
+========== SET MONTHLY BUDGET ==========
+Enter month (YYYY-MM) [2026-11]: 2025-12
+Enter monthly budget (Rs.): 300000
+Budget for 2025-12 saved successfully!
+
+
+================================================
+       PERSONAL EXPENSE & BUDGET TRACKER
+================================================
+1. Add Expense
+2. View All Expenses
+3. Edit Expense
+4. Delete Expense
+5. Set Monthly Budget
+6. Daily Spending Summary
+7. Monthly Spending Summary
+8. Category-wise Summary
+9. Search and Filter Expenses
+0. Exit
+================================================
+Enter your choice: 8
+
+========== CATEGORY SUMMARY ==========
+Enter month (YYYY-MM): 2026-05
+No expense records found.
+
+
+================================================
+       PERSONAL EXPENSE & BUDGET TRACKER
+================================================
+1. Add Expense
+2. View All Expenses
+3. Edit Expense
+4. Delete Expense
+5. Set Monthly Budget
+6. Daily Spending Summary
+7. Monthly Spending Summary
+8. Category-wise Summary
+9. Search and Filter Expenses
+0. Exit
+================================================
+Enter your choice: 2
+
+========== ALL EXPENSES ==========
+------------------------------------------------------------------------------------------
+ID         DATE         CATEGORY         DESCRIPTION                     AMOUNT
+------------------------------------------------------------------------------------------
+3e7aed97   2025-10-22   Food             apples                          500.00
+------------------------------------------------------------------------------------------
+
+
+================================================
+       PERSONAL EXPENSE & BUDGET TRACKER
+================================================
+1. Add Expense
+2. View All Expenses
+3. Edit Expense
+4. Delete Expense
+5. Set Monthly Budget
+6. Daily Spending Summary
+7. Monthly Spending Summary
+8. Category-wise Summary
+9. Search and Filter Expenses
+0. Exit
+================================================
+Enter your choice: 4
+
+========== DELETE EXPENSE ==========
+Enter expense ID: 3e7aed97
+Are you sure you want to delete? (y/n): y
+Expense deleted successfully!
+
+
+================================================
+       PERSONAL EXPENSE & BUDGET TRACKER
+================================================
+1. Add Expense
+2. View All Expenses
+3. Edit Expense
+4. Delete Expense
+5. Set Monthly Budget
+6. Daily Spending Summary
+7. Monthly Spending Summary
+8. Category-wise Summary
+9. Search and Filter Expenses
+0. Exit
+================================================
+Enter your choice: 2
+
+========== ALL EXPENSES ==========
+No expense records found.
+
+
+================================================
+       PERSONAL EXPENSE & BUDGET TRACKER
+================================================
+1. Add Expense
+2. View All Expenses
+3. Edit Expense
+4. Delete Expense
+5. Set Monthly Budget
+6. Daily Spending Summary
+7. Monthly Spending Summary
+8. Category-wise Summary
+9. Search and Filter Expenses
+0. Exit
